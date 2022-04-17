@@ -38,8 +38,8 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  padding: 0 0;
-  margin: 0 0;
+  padding: 0;
+  margin: 0;
 }
 
 .header__subtitle {  /*3*/
@@ -51,11 +51,12 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  padding: 0 0;
-  margin: 0 0;
+  padding: 0;
+  margin: 0;
 }
 
 .header__link{  /*4 +*/
+  text-decoration: none;
   color: #2f80ed;
 }
 
@@ -81,7 +82,7 @@
 .description {
   display: flex;
   justify-content: center;
-  padding: 100px 0 100px;
+  padding: 100px 0 0;
 }
 
 .two-columns {
@@ -205,7 +206,8 @@
   font-size: 120px;
   font-weight: bold;
   text-align: center;
-  margin-top: 100px; /*остальные сбрасываем согласно брифу*/
+  margin: 100px 0 0; /*остальные сбрасываем согласно брифу*/
+  padding: 0;
 }
 
 .feynman__subtitle {
@@ -214,6 +216,7 @@
   font-weight: normal;
   text-align: center;
   margin: 70px 0 0; /*остальные сбрасываем согласно брифу*/
+  padding: 0;
 }
 
 .feynman__link {
@@ -224,6 +227,7 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 /*Kaufman*/
@@ -305,6 +309,7 @@
   line-height: 30px;
   font-weight: bold;
   margin: 0;
+  padding: 0;
 }
 
 .footer__column-links {
