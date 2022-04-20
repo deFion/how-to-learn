@@ -1,0 +1,8 @@
+.techniques {
+    display: flex;
+    flex-direction: column; /*содержимое блока в столбик*/
+    align-items: center; /*центрируем содержимое блока*/
+    width: 80%;
+    padding: 0;
+    margin: 100px auto 0;
+  }

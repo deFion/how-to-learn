@@ -1,0 +1,10 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between; распредляем элементы равномерно*/
+    flex-wrap: wrap; /*настраиваем перенос элементов на новую строку, если не умещаются*/
+    width: 920px;
+    margin: 0; 
+    padding: 0; /*убираем непонятно откуда взявшийся левый отступ и остальные заодно*/
+    list-style: none; /*убираем маркировку списка*/
+  }

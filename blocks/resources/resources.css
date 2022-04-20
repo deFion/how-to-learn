@@ -1,0 +1,6 @@
+.resources {
+    display: flex;
+    flex-direction: column; /*содержимое блока в столбик*/
+    align-items: center; /*центрируем содержимое блока*/
+    margin: 100px 0 217px;
+  }

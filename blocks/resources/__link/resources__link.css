@@ -1,0 +1,9 @@
+.resources__link {
+    opacity: 100%;
+  }
+  
+  /*в брифе написано, что все ссылки должны становиться прозрачными, поэтому здесь тоже это добавила*/
+  .resources__link:hover {
+    opacity: 57%;
+    transition: opacity .5s linear;
+  }
