@@ -1,6 +1,6 @@
 .digits {
-    display: flex;
-    flex-direction: column; /*содержимое блока в столбик*/
-    align-items: center; /*центрируем содержимое блока*/
-    margin: 100px 0 100px; /*отступ по брифу*/
-  }
+  display: flex;
+  flex-direction: column; /*содержимое блока в столбик*/
+  align-items: center; /*центрируем содержимое блока*/
+  margin: 100px 0 100px; /*отступ по брифу*/
+}
