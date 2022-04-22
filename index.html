@@ -26,7 +26,7 @@
 
       <!--Description-->
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns" aria-label="Главные проблемы в обучении">
           <h2 class="two-columns__brief">Главные проблемы в&nbsp;обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, 
@@ -39,7 +39,7 @@
             <p class="two-columns__paragraph"> Конкретные техники и упражнения помогают изменить подход к обучению, 
               сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p> 
           </div> 
-        </div>  
+        </article>  
       </section>
 
       <!--Techniques-->
@@ -82,27 +82,22 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <ul class="video__iframes">
-          <li class="video__iframe">
+          <li>
             <iframe class="video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU"
             title="YouTube video player" allow="accelerometer; autoplay; clipboard-write;
             encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </li>
-          <li class="video__iframe">
+          <li>
             <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
             title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; 
             encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </li>
-          <!--при использовании класса video__iframe и для li, и для iframe получается как надо по брифу, 
-          но не уверена, что это правильно. разносила отдельно по каждому, но для обнуления отступа справа
-          у второго видео приходилось выкручиваться либо обращением через псевдоэлемент по ссылке,
-          либо дописывая 100% высоту-ширину и обнуление рамки в html, что тоже является ошибкой.
-          остановилась на этом варианте, как максимально приближенном к адекватному-->
         </ul>
       </section>
 
       <!--Oakley-->
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns" aria-label="История Барбары Оакли">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным 
@@ -111,7 +106,7 @@
               И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши 
               добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div> 
-        </div>  
+        </article>  
       </section>
 
       <!--Feynman-->
@@ -172,9 +167,9 @@
             по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так
             учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </blockquote>
-          <p class="khan__quote-author">Джордж Лукас</p>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-          <div class="khan__block-container">
+          <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="книга Весь мир - школа">
             <a href="#" class="khan__buy-link">Купить книгу &#8594;</a>
           </div>

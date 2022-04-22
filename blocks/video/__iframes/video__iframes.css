@@ -1,10 +1,14 @@
 .video__iframes {
   margin: 0 auto 0;
   padding: 0;
-  /*font-size: 0; убираем лишние пиксели снизу*/
+  font-size: 0; /*убираем лишние пиксели снизу*/
   position: relative;
   display: flex;
   flex-direction: row;
   top: 50px;
   list-style-type: none;
+}
+
+.video__iframes > :nth-child(2) {
+  margin-left: 20px;
 }
